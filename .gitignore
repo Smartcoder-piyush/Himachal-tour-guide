@@ -2,6 +2,8 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Environment
 .env
@@ -14,3 +16,6 @@ __pycache__/
 Thumbs.db
 
 venv/
+venv/ 
+.env 
+__pycache__/ 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himachal Tourism</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="bg-slideshow">
+    <img src="/static/images/new_image.jpg" alt="Himachal Landscape">
+    <img src="/static/images/new2.jpg" alt="Himachal Landscape">
+    <img src="/static/images/new3.jpg" alt="Himachal Landscape">
+    <img src="/static/images/new4.jpg" alt="Himachal Landscape">
+    <img src="/static/images/new6.jpg" alt="Himachal Landscape">
+    <img src="/static/images/kufri-shimla.jpg" alt="Himachal Landscape">
+    <img src="/static/images/kullu.jpg" alt="Himachal Landscape">
+    <img src="/static/images/manali.jpg" alt="Himachal Landscape">
+    <img src="/static/images/shimla.jpg" alt="Himachal Landscape">
+    <img src="/static/images/shimla2.jpg" alt="Himachal Landscape">
+  </div>
+  
+  <div class="form-container">
+    <form method="POST" action="/">
+      <h1>Welcome to Himachal</h1>
+      <p>It is a beautiful place to plan a journey and spend some important time of your life in a peaceful and pollution‑free place.</p>
+      
+      <h2>When do you want to visit?</h2>
+
+      <!-- Original Text Inputs (PRESERVED) -->
+      <div class="input-container">
+        <input type="text" class="season-input" name="season" id="season" placeholder=" ">
+        <label class="input-label">Preferred Season:</label>
+        <span class="input-underline"></span>
+      </div>
+      
+      <div class="input-container">
+        <input type="text" class="month-input" name="month" placeholder=" ">
+        <label class="input-label">Preferred Month:</label>
+        <span class="input-underline"></span>
+      </div>
+      
+      <div class="input-container">
+        <input type="number" class="year-input" name="year" id="year" placeholder=" ">
+        <label class="input-label">Year</label>
+        <span class="input-underline"></span>
+      </div>
+        
+      <div class="input-container">
+        <input type="number" class="date-input" name="date" id="date" placeholder=" ">
+        <label class="input-label">Date</label>
+        <span class="input-underline"></span>
+      </div>
+        
+      <div class="input-container">
+        <input type="time" class="time-input" name="time" id="time" placeholder=" ">
+        <label class="input-label">Time</label>
+        <span class="input-underline"></span>
+      </div>
+      
+      <div class="button-container">
+        <button type="button" class="button">Learn More</button>
+        <button type="submit" class="button-primary">Find Places</button>
+      </div>
+    </form>
+  </div>
+    
+  <script src="/static/script.js"></script>  
+</body>
+</html>

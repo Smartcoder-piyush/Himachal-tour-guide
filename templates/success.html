@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Himachal Tourism - Recommendations</title>
+        <link rel="stylesheet" href="/static/styles.css">
+        <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    </head>
+    <body>
+        <div class="bg-slideshow">
+            <img src="/static/images/new_image.jpg" alt="Himachal Landscape">
+            <img src="/static/images/new2.jpg" alt="Himachal Landscape">
+            <img src="/static/images/new3.jpg" alt="Himachal Landscape">
+            <img src="/static/images/new4.jpg" alt="Himachal Landscape">
+            <img src="/static/images/new6.jpg" alt="Himachal Landscape">
+            <img src="/static/images/kufri-shimla.jpg" alt="Himachal Landscape">
+            <img src="/static/images/kullu.jpg" alt="Himachal Landscape">
+            <img src="/static/images/manali.jpg" alt="Himachal Landscape">
+            <img src="/static/images/shimla.jpg" alt="Himachal Landscape">
+            <img src="/static/images/shimla2.jpg" alt="Himachal Landscape">
+        </div>
+    
+    <div class="form-container">
+        <h1>Best Places in Himachal Pradesh</h1>
+        <p>Based on your preferences, here are our recommendations:</p>
+
+        <!-- Display AI recommendations -->
+        {% if recommendations %}
+        <div class="recommendations">
+            <h2>Recommended Places:</h2>
+            <div style="white-space: pre-line; color: #e0e0e0; line-height: 1.6; text-align: left;">{{ recommendations }}</div>
+        </div>
+        {% endif %}
+        
+        <div class="button-container" style="margin-top: 30px;">
+            <a href="/" class="button-primary">Plan Another Trip</a>
+        </div>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>

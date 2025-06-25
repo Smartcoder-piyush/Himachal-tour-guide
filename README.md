@@ -13,7 +13,7 @@ My first web application! A simple website that gives travel recommendations for
 - **Python & Flask** - Backend
 - **Google Gemini AI** - For recommendations  
 - **HTML/CSS/JavaScript** - Frontend
-- **Lots of AI help** - ChatGPT/Claude helped me learn and debug
+- **Lots of AI help** - ChatGPT/Claude/DeepSeek helped me learn and debug
 
 ## How to run it
 
